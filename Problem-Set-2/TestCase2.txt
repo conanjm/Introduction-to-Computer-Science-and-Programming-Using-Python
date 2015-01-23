@@ -1,0 +1,23 @@
+Test Case 1:
+          balance = 3329
+          annualInterestRate = 0.2
+
+          Result Your Code Should Generate:
+          -------------------
+          Lowest Payment: 310
+
+Test Case 2:
+          balance = 4773
+          annualInterestRate = 0.2
+
+          Result Your Code Should Generate:
+          -------------------
+          Lowest Payment: 440
+
+Test Case 3:
+          balance = 3926
+          annualInterestRate = 0.2
+
+          Result Your Code Should Generate:
+          -------------------
+          Lowest Payment: 360
