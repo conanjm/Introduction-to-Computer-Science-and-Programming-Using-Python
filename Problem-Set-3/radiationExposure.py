@@ -1,8 +1,3 @@
-def f(x):
-    import math
-    return 10*math.e**(math.log(0.5)/5.27 * x)
-
-
 def radiationExposure(start, stop, step):
     '''
     Computes and returns the amount of radiation exposed
@@ -19,9 +14,8 @@ def radiationExposure(start, stop, step):
       between start and stop times.
     '''
     # FILL IN YOUR CODE HERE...
-    sum = 0
-    for i in range(start,stop):
-        sum += f(i) * step
+    sum = 0.0
+    steps = int((stop-start)/step)
+    for i in range(0, steps):
+        sum += f(start+(i*step)) * step
     return sum
-
-print radiationExposure(5, 11, 1)
