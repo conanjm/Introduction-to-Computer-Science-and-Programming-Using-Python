@@ -1,0 +1,19 @@
+Test case 1:
+
+>>> radiationExposure(0, 5, 1)
+39.10318784326239
+
+Test case 2:
+
+>>> radiationExposure(5, 11, 1)
+22.94241041057671
+
+Test case 3:
+
+>>> radiationExposure(0, 11, 1)
+62.0455982538
+
+Test case 4:
+
+>>> radiationExposure(40, 100, 1.5)
+0.434612356115
